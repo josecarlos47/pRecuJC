@@ -1,0 +1,130 @@
+header{
+    display:inline;
+}
+header img{
+    width: 5em;
+}
+
+nav ul li{
+    display:inline;
+    margin-right:2em;
+    margin-left: 2em;
+    border-radius: 4px;
+    transition: background-color 0.5s;
+    
+}
+
+nav ul li:hover{
+    background-color: rgb(255, 255, 255)
+
+}
+
+nav{
+    background-color: rgb(253, 163, 255);
+    text-align: center;
+}
+
+main{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+html{
+     background-color: rgb(55, 54, 54);
+}
+p{
+    color: rgb(242, 242, 242);
+}
+
+.publicaciones{
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-top: solid 2em;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.divpublis{
+    margin: 0 auto;
+    text-align: center; 
+}
+
+.user{
+    display: contents;
+}
+
+.fotoPerfil{
+    border-radius: 100px;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.usuario{
+    margin-top: -59.5px;
+    margin-left: 230px;
+    font-size: 200%;
+}
+.infoPersonal{
+    margin-left: 110px;
+}
+.ultPublicaciones{
+    color: white;
+    margin-left: 390px
+}
+.ultFoto{
+    width: 500px;
+}
+
+.morante.publicaciones {
+    width: 700px;
+    margin-left: 100px;
+}
+.amigos{
+    margin-left: 250px;
+
+}
+.amigosNumero{
+    margin-left: 270px;
+}
+
+.friends-page {
+    text-align: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .friend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .friend img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .search-button {
+    margin-top: 20px;
+  }
+
+.config{
+    margin-left: 300px;
+    padding: 20px;
+    width: 30px;
+    transition: 0.5s linear;
+}  
+.config:hover{
+    transform: rotate(45deg);
+    filter: grayscale();
+}
