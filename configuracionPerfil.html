@@ -14,7 +14,7 @@
     </header>
     <nav>
         <ul>
-            <li>Mi Perfil</li>
+           <a href="index.html"><li>Mi Perfil</li></a>
             <li>Línea del Tiempo</li>
             <li>Fotos</li>
             <li>Amigos</li>
@@ -22,20 +22,65 @@
         </ul>
     </nav>
     <article>
-       
+        
         <img src="img/morante.jpg" alt="Sergio" class="fotoPerfil">
-        <p class="usuario"><input type="text" name="d"></p> 
+        
+        <a href=""><img src="img/config.png" alt="configuracion" class="config"></a>
+        <p class="usuario">@delapuebla.morante</p> 
         <p class="amigos"><b>Amigos</b></p>
         <p class="amigosNumero">6</p>
         
-        <div class="modInfo">
-        <label for="msg">Información:</label>
-        <textarea id="msg" name="user_message"></textarea>
-        </div>
+        <table class="descripcion">
+            <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Nombre de usuario</th>
+                
+            </tr>
+            <tr>
+                <td>
+                    <form action="">
+                        <label for="nombre"><input type="text"></label>
+                    </form>
+                </td>
+                <td>Morante Camacho</td>
+                <td>delapuebla.moprante</td>
+                
+            </tr>
+            <tr>
+                <th>Correo electronico</th>
+                <th>Número de teléfono</th>
+                <th>Aficiones</th>
+            </tr>
+            <tr>
+                <td>
+                <form action="">
+                    <label for="email"><input type="email"></label>
+                </form>
+                </td>
+                <td>
+                    <form action="">
+                        <label for="numero"><input type="number" name="numero" id="numero"></label>
+                    </form>
+                </td>
+                <td>
+                    <form action="">
+                        <textarea name="desc" id="desc" cols="14" rows="3"></textarea>
+                    </form>
+                </td>
+            </tr>
+            
+        </table>
+
     </article>
-    <article>
-        <h4 class="ultPublicaciones">Ultimas Publicaciones</h4>
-        <img src="img/rabo.jpg" alt="Morante con el rabo" class="publicaciones morante">
+    <article> 
+        
+        <div>
+            <h4 class="ultPublicaciones">Ultimas Publicaciones</h4>
+            <div class="divpublis">
+                <img src="img/rabo.jpg" alt="" width="700em" class="publicaciones">
+            </div>
+        </div>
     </article>
 </body>
 </html>

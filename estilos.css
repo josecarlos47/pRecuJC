@@ -72,7 +72,7 @@ p{
 }
 .ultPublicaciones{
     color: white;
-    margin-left: 390px
+    text-align: center;
 }
 .ultFoto{
     width: 500px;
@@ -146,5 +146,6 @@ p{
 .descripcion td{
     border: solid rgb(253, 163, 255);
     text-align: center;
+    width: 100px;
 }
 
