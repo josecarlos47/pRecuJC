@@ -25,6 +25,7 @@ nav{
     background: linear-gradient(to bottom right, rgb(221, 255, 0),rgb(253, 163, 255));
     text-align: center;
     height: 100px;
+    margin-top: -20px;
 }
 
 main{
@@ -191,4 +192,10 @@ aside{
 
 a{
     text-decoration: none;
+}
+
+.enviar{
+    border-radius: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
 }
