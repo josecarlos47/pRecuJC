@@ -5,13 +5,14 @@ header img{
     width: 100%;
     height: 20%;
 }
-
 nav ul li{
     display:inline;
     margin-right:2em;
     margin-left: 2em;
     border-radius: 4px;
     transition: background-color 0.5s;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
     
 }
 
@@ -21,8 +22,9 @@ nav ul li:hover{
 }
 
 nav{
-    background-color: rgb(253, 163, 255);
+    background: linear-gradient(to bottom right, rgb(221, 255, 0),rgb(253, 163, 255));
     text-align: center;
+    height: 100px;
 }
 
 main{
@@ -34,6 +36,8 @@ html{
 }
 p{
     color: rgb(242, 242, 242);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
 }
 
 .publicaciones{
@@ -84,16 +88,16 @@ p{
     margin-left: 100px;
 }
 .amigos{
-    margin-left: 250px;
+    margin-left: 240px;
 
 }
 .amigosNumero{
-    margin-left: 270px;
+    margin-left: 260px;
 }
 
 
 .config{
-    margin-left: 300px;
+    margin-left: 400px;
     padding: 20px;
     width: 30px;
     transition: 0.5s linear;
@@ -133,30 +137,30 @@ p{
     
   }
 
-  .header {
+.header {
     text-align: center;
     margin-bottom: 20px;
   }
 
-  .title {
+.title {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
   }
 
-  .botones {
+.botones {
     font-size: 16px;
     color: #666;
   }
 
-  .contcartas {
+.contcartas {
     margin-bottom: 20px;
   }
-  .buttons {
+.buttons {
     text-align: center;
   }
 
-  .button {
+.button {
     display: inline-block;
     padding: 10px 20px;
     background-color: rgb(253, 163, 255);
@@ -166,21 +170,25 @@ p{
     border-radius: 5px;
     transition: background-color 0.3s ease;
     margin: 5px;
-  }
+}
 
-  .fotoPerfilSugerencias{
+.fotoPerfilSugerencias{
     width: 150px;
     border-radius: 110px;
   }
 
-  h2{
+h2{
     text-align: center;
     color: #f2f2f2;
   }
-  .cartas{
+.cartas{
     display: flex;
     margin:2em;
   }
-  aside{
+aside{
     float: right;
   }
+
+a{
+    text-decoration: none;
+}
