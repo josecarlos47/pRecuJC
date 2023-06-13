@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
     <title>Configuración</title>
+    <style>
+        input:focus{
+            background-color: rgb(221, 255, 0);
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -80,14 +85,23 @@
         </table>
 
     </article>
-    <article> 
-        
-        <div>
-            <h4 class="ultPublicaciones">Ultimas Publicaciones</h4>
-            <div class="divpublis">
-                <img src="img/rabo.jpg" alt="" width="700em" class="publicaciones">
-            </div>
-        </div>
-    </article>
+    <footer>
+        <p>Privacidad de la cuenta</p>
+        <form action="">
+            <label for="privacidad"><input type="radio" name="privacidad" id="privacidad">Privada</label>
+            <label for="privacidad"><input type="radio" name="privacidad" id="privacidad" checked>Pública</label>
+        </form>
+        <p>Comentarios en las fotos</p>
+        <form action="">
+            <label for="comentario"><input type="radio" name="comentario" id="comentario" checked>Todos mis seguidores</label>
+            <label for="comentario"><input type="radio" name="comentario" id="comentario">Solo amigos</label>
+        </form>
+        <p>Mostrar Me Gustas en las fotos</p>
+        <form action="">
+            <label for="likes"><input type="radio" name="likes" id="likes" >No mostrar nunca</label>
+            <label for="likes"><input type="radio" name="likes" id="likes" checked>Mostrar</label>
+            <label for="likes"><input type="radio" name="likes" id="likes">Mostrar solo a los amigos</label>
+        </form>
+    </footer>
 </body>
 </html>
